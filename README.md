@@ -75,7 +75,7 @@
 
 <div align="center">
 
-![trophy](https://github-profile-trophy.vercel.app/?username=YourUsername&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15)
+![trophy](https://github-profile-trophy.vercel.app/?username=Youssef8811&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15)
 
 </div>
 
@@ -85,7 +85,7 @@
 
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=YourUsername&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=6C63FF&line=6C63FF&point=C9D1D9)](https://github.com/YourUsername)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Youssef8811&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=6C63FF&line=6C63FF&point=C9D1D9)](https://github.com/YourUsername)
 
 </div>
 
