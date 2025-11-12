@@ -8,14 +8,14 @@
 
 ---
 
-## 🚀 About Me
+## ✒ About Me ️
 
 > Passionate developer crafting solutions to complex problems.
 > I believe bugs are intricate to programming, which, with time, we become better at resolving them.
 
 
-- 🔭 Currently working on **Bike Sharing System**
-- 🌱 Learning **Artificial Intelligence & Cloud Computing**
+- 📜 Currently working on **Bike Sharing System Web Application** 
+- 🌱 Learning **Artificial Intelligence & Cloud Computing** 
 
 ---
 
