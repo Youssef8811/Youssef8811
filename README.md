@@ -1,4 +1,12 @@
-<img src="https://capsule-render.vercel.app/api?type=venom&color=6C63FF&height=200&section=header&text=Youssef%20Youssef&fontSize=70&fontColor=fff" width="100%"/>
+<picture>
+  <!-- Dark mode -->
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=venom&color=6C63FF&height=200&section=header&text=Youssef%20Youssef&fontSize=70&fontColor=fff" />
+  <!-- Light mode -->
+  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=venom&color=6C63FF&height=200&section=header&text=Youssef%20Youssef&fontSize=70&fontColor=000" />
+
+  <img alt="Youssef Youssef" src="https://capsule-render.vercel.app/api?type=venom&color=6C63FF&height=200&section=header&text=Youssef%20Youssef&fontSize=70&fontColor=000" width="100%" />
+</picture>
+
 
 <div align="center">
   
