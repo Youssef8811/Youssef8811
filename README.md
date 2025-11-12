@@ -135,7 +135,7 @@ const goals2025 = [
 <div align="center">
   
 [![Repo 1](https://github-readme-stats.vercel.app/api/pin/?username=Moe1177&repo=HexaPedal_HM&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=C9D1D9)](https://github.com/Moe1177/HexaPedal_HM)
-[![Repo 2](https://github-readme-stats.vercel.app/api/pin/?username=Youssef8811&repo=second-repo-name&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=C9D1D9)](https://github.com/YourUsername/second-repo-name)
+[![Repo 2](https://github-readme-stats.vercel.app/api/pin/?username=Youssef8811&repo=POLO-SOEN341_Project_F24&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=C9D1D9)](https://github.com/POLO-SOEN341/POLO-SOEN341_Project_F24)
 
 </div>
 
