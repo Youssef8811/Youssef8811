@@ -129,7 +129,6 @@ const goals2025 = [
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/-youssef-youssef/)
 [![Email via Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](https://mail.google.com/mail/?view=cm&fs=1&to=youssefy8811@gmail.com)
-[![Email (any client)](https://img.shields.io/badge/Email_Client-555555?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:youssefy8811@gmail.com)
 
 
 </div>
