@@ -1,5 +1,4 @@
 name: Generate Snake
-
 on:
   schedule:
     - cron: "0 */12 * * *"
@@ -7,9 +6,10 @@ on:
   push:
     branches:
     - main
-
 jobs:
   generate:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 10
     
@@ -20,7 +20,7 @@ jobs:
           github_user_name: Youssef8811
           outputs: |
             dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%236C63FF&color_dots=%230d1117,%23232940,%236C63FF,%238B7FFF,%23A99FFF
             
       - name: Push github-contribution-grid-snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
