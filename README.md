@@ -96,16 +96,14 @@
 ```javascript
 const currentlyLearning = {
   cloud: ["AWS", "Azure", "Kubernetes"],
-  ai: ["Machine Learning", "TensorFlow", "LangChain"],
-  mobile: ["React Native", "Flutter"],
-  blockchain: ["Solidity", "Web3.js"]
+  ai: ["Machine Learning", "TensorFlow"],
+  mobile: ["React Native"],
+  blockchain: ["Solidity"]
 };
 
 const goals2025 = [
-  "Contribute to 10+ open source projects",
-  "Build and launch 3 SaaS products",
-  "Write technical blog posts weekly",
-  "Mentor junior developers"
+  "Contribute to an open source project",
+  "Build and launch a SaaS product",
 ];
 ```
 
