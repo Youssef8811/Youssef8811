@@ -10,13 +10,12 @@
 
 ## 🚀 About Me
 
-> Passionate developer crafting elegant solutions to complex problems. I believe in clean code, continuous learning, and the power of collaboration.
+> Passionate developer crafting solutions to complex problems.
+> I believe bugs are intricate to programming, which, with time, we become better at resolving them.
 
-- 🔭 Currently working on **[Your Current Project]**
-- 🌱 Learning **[Technologies you're learning]**
-- 👯 Looking to collaborate on **Open Source Projects**
-- 💬 Ask me about **Web Development, APIs, Cloud Architecture**
-- ⚡ Fun fact: **[Something interesting about you]**
+
+- 🔭 Currently working on **Bike Sharing System**
+- 🌱 Learning **Artificial Intelligence & Cloud Computing**
 
 ---
 
