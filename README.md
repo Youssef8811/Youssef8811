@@ -130,8 +130,14 @@ const goals2025 = [
 
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
 
-### 😂 Random Dev Meme
-<img src='https://randommeme-five.vercel.app/' style="height: 400px;"/>
+### 🌟 Featured Projects
+
+<div align="center">
+  
+[![Repo 1](https://github-readme-stats.vercel.app/api/pin/?username=YourUsername&repo=first-repo-name&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=C9D1D9)](https://github.com/YourUsername/first-repo-name)
+[![Repo 2](https://github-readme-stats.vercel.app/api/pin/?username=YourUsername&repo=second-repo-name&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=C9D1D9)](https://github.com/YourUsername/second-repo-name)
+
+</div>
 
 ---
 
