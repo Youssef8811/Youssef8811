@@ -3,85 +3,124 @@
   height="300" 
   viewBox="0 0 200 300" 
   xmlns="http://www.w3.org/2000/svg"
-  aria-label="An animation of a coffee cup spilling a continuous waterfall of coffee.">
-
+  aria-label="Animated coffee cup spilling a waterfall of coffee."
+>
   <defs>
     <linearGradient id="coffeeGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#5C3A21;" />
-      <stop offset="50%" style="stop-color:#6F4E37;" />
-      <stop offset="100%" style="stop-color:#5C3A21;" />
+      <stop offset="0%" stop-color="#5C3A21" />
+      <stop offset="50%" stop-color="#6F4E37" />
+      <stop offset="100%" stop-color="#5C3A21" />
     </linearGradient>
-    <color>
-      <desc>Coffee color</desc>
-      <def color="#6F4E37" />
-    </color>
-    <color>
-      <desc>Foam color</desc>
-      <def color="#F5E5C3" />
-    </color>
-    <color>
-      <desc>Cup color</desc>
-      <def color="#D1B280" />
-    </color>
-    <color>
-      <desc>Cup rim/inside color</desc>
-      <def color="#FDFBF5" />
-    </color>
+    <linearGradient id="cupGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D1B280" />
+      <stop offset="50%" stop-color="#C0A070" />
+      <stop offset="100%" stop-color="#D1B280" />
+    </linearGradient>
+    <linearGradient id="rimGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FDFBF5" />
+      <stop offset="50%" stop-color="#EDECE6" />
+      <stop offset="100%" stop-color="#FDFBF5" />
+    </linearGradient>
+    <radialGradient id="splashGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#6F4E37" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#6F4E37" stop-opacity="0"/>
+    </radialGradient>
   </defs>
 
-  <path 
-    d="M 10 280 Q 50 260, 100 270 T 190 280 L 190 300 L 10 300 Z" 
-    fill="url(#coffeeGradient)" />
-  <path 
-    d="M 10 280 Q 50 260, 100 270 T 190 280" 
-    fill="none" 
-    stroke="#F5E5C3" 
-    stroke-width="5" />
+  <g transform="translate(100, 70) rotate(-70)"> 
+    <ellipse cx="0" cy="0" rx="40" ry="25" fill="#D1B280" stroke="#A48C65" stroke-width="2"/>
+    <ellipse cx="0" cy="-20" rx="45" ry="20" fill="#FDFBF5" stroke="#EDECE6" stroke-width="3"/>
+    <ellipse cx="0" cy="-15" rx="35" ry="15" fill="#6F4E37"/>
+  </g>
 
   <path fill="url(#coffeeGradient)">
     <animate 
       attributeName="d"
-      dur="1.5s"
+      dur="2s"
       repeatCount="indefinite"
       calcMode="spline"
       keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"
       values="
-        M 80 80 C 80 130, 70 190, 85 280 L 115 280 C 130 190, 120 130, 120 80 Z;
-        M 80 80 C 85 140, 95 180, 90 280 L 110 280 C 105 180, 115 140, 120 80 Z;
-        M 80 80 C 80 130, 70 190, 85 280 L 115 280 C 130 190, 120 130, 120 80 Z
+        M 100 100 C 95 150, 80 200, 85 280 L 115 280 C 120 200, 105 150, 100 100 Z;
+        M 100 100 C 105 140, 110 190, 100 280 L 120 280 C 110 190, 115 140, 100 100 Z;
+        M 100 100 C 95 150, 80 200, 85 280 L 115 280 C 120 200, 105 150, 100 100 Z
       "
     />
   </path>
 
-  <path fill="#F5E5C3" opacity="0.8">
+  <path fill="#6F4E37">
     <animate 
       attributeName="d"
-      dur="1.5s"
+      dur="2s"
       repeatCount="indefinite"
       calcMode="spline"
       keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"
       values="
-        M 90 100 C 90 140, 85 190, 88 250 L 93 250 C 95 190, 100 140, 98 100 Z;
-        M 88 100 C 85 150, 95 180, 92 250 L 97 250 C 99 180, 105 150, 103 100 Z;
-        M 90 100 C 90 140, 85 190, 88 250 L 93 250 C 95 190, 100 140, 98 100 Z
+        M 60 280 Q 80 270, 100 280 T 140 280 Q 120 290, 100 290 T 60 280 Z;
+        M 50 280 Q 70 265, 100 280 T 150 280 Q 130 295, 100 295 T 50 280 Z;
+        M 60 280 Q 80 270, 100 280 T 140 280 Q 120 290, 100 290 T 60 280 Z
       "
     />
   </path>
 
-  <g transform="translate(100, 50) rotate(20)">
-    <path 
-      d="M -40 30 C -60 30, -70 5, -50 -15 C -30 -35, 0 -35, 20 -15 C 40 5, 30 30, 10 30 Z" 
-      fill="#D1B280" 
-      stroke="#A48C65" 
-      stroke-width="2" />
-    <path 
-      d="M -40 30 Q -15 45, 10 30" 
-      fill="#6F4E37" />
-    <path 
-      d="M -40 30 C -60 30, -70 5, -50 -15 C -30 -35, 0 -35, 20 -15 C 40 5, 30 30, 10 30" 
-      fill="none" 
-      stroke="#FDFBF5" 
-      stroke-width="5" />
-  </g>
+  <circle cx="100" cy="280" r="15" fill="#F5E5C3" opacity="0.6">
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      type="scale"
+      from="0" to="1"
+      dur="1.5s"
+      repeatCount="indefinite"
+      additive="sum"
+      begin="0.5s"
+    />
+    <animate
+      attributeName="opacity"
+      from="0.6" to="0"
+      dur="1.5s"
+      repeatCount="indefinite"
+      begin="0.5s"
+    />
+  </circle>
+
+  <circle cx="90" cy="285" r="10" fill="#F5E5C3" opacity="0.5">
+     <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      type="scale"
+      from="0" to="1"
+      dur="1.3s"
+      repeatCount="indefinite"
+      additive="sum"
+      begin="0.8s"
+    />
+    <animate
+      attributeName="opacity"
+      from="0.5" to="0"
+      dur="1.3s"
+      repeatCount="indefinite"
+      begin="0.8s"
+    />
+  </circle>
+
+  <circle cx="110" cy="285" r="10" fill="#F5E5C3" opacity="0.5">
+     <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      type="scale"
+      from="0" to="1"
+      dur="1.3s"
+      repeatCount="indefinite"
+      additive="sum"
+      begin="1.1s"
+    />
+    <animate
+      attributeName="opacity"
+      from="0.5" to="0"
+      dur="1.3s"
+      repeatCount="indefinite"
+      begin="1.1s"
+    />
+  </circle>
 
 </svg>
