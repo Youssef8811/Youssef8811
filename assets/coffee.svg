@@ -18,7 +18,23 @@
     </linearGradient>
   </defs>
 
-  <!-- Coffee waterfall -->
+  <!-- Mug -->
+  <g transform="translate(100, 80) rotate(-70)">
+    <path d="M -25 30 L -25 -30 A 25 10 0 0 1 25 -30 L 25 30 A 25 10 0 0 1 -25 30 Z" 
+          fill="url(#mugBodyGradient)" 
+          stroke="#A48C65" 
+          stroke-width="1.5"/>
+    
+    <!-- Coffee inside mug, same gradient as spill -->
+    <ellipse cx="0" cy="-30" rx="20" ry="8" fill="url(#coffeeGradient)" />
+
+    <path d="M 30 0 C 40 -15, 40 -25, 30 -30 L 30 -20 C 35 -20, 35 -10, 30 0 Z" 
+          fill="url(#mugBodyGradient)" 
+          stroke="#A48C65" 
+          stroke-width="1.5"/>
+  </g>
+
+  <!-- Coffee waterfall on top -->
   <path fill="url(#coffeeGradient)">
     <animate 
       attributeName="d"
@@ -27,28 +43,10 @@
       calcMode="spline"
       keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"
       values="
-        M 75 90 C 70 140, 60 200, 70 280 L 80 280 C 85 200, 90 140, 85 90 Z;
-        M 75 90 C 80 130, 85 180, 75 280 L 85 280 C 90 180, 95 130, 85 90 Z;
-        M 75 90 C 70 140, 60 200, 70 280 L 80 280 C 85 200, 90 140, 85 90 Z
+        M 62 83 C 57 133, 47 193, 57 273 L 67 273 C 72 193, 77 133, 72 83 Z;
+        M 62 83 C 67 123, 72 173, 62 273 L 72 273 C 77 173, 82 123, 72 83 Z;
+        M 62 83 C 57 133, 47 193, 57 273 L 67 273 C 72 193, 77 133, 72 83 Z
       "
     />
   </path>
-  
-  <!-- Mug -->
-  <g transform="translate(100, 80) rotate(-70)">
-    <path d="M -25 30 L -25 -30 A 25 10 0 0 1 25 -30 L 25 30 A 25 10 0 0 1 -25 30 Z" 
-          fill="url(#mugBodyGradient)" 
-          stroke="#A48C65" 
-          stroke-width="1.5"/>
-
-    <ellipse cx="0" cy="-30" rx="20" ry="8" fill="#6F4E37" />
-
-    <!-- Removed the white rim -->
-    <!-- <ellipse cx="0" cy="-30" rx="25" ry="10" fill="none" stroke="url(#mugRimGradient)" stroke-width="4" /> -->
-
-    <path d="M 30 0 C 40 -15, 40 -25, 30 -30 L 30 -20 C 35 -20, 35 -10, 30 0 Z" 
-          fill="url(#mugBodyGradient)" 
-          stroke="#A48C65" 
-          stroke-width="1.5"/>
-  </g>
 </svg>
