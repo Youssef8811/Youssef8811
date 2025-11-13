@@ -1,70 +1,87 @@
-<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <!-- Coffee Cup -->
-  <g id="cup">
-    <!-- Saucer -->
-    <ellipse cx="100" cy="160" rx="50" ry="8" fill="#8B4513" opacity="0.6"/>
-    
-    <!-- Cup body -->
-    <path d="M 70 160 L 75 100 Q 75 95 80 95 L 120 95 Q 125 95 125 100 L 130 160 Z" 
-          fill="#D2691E" stroke="#8B4513" stroke-width="2"/>
-    
-    <!-- Coffee inside -->
-    <path d="M 77 155 L 80 105 L 120 105 L 123 155 Z" 
-          fill="#3E2723"/>
-    
-    <!-- Cup handle -->
-    <path d="M 130 115 Q 145 115 145 130 Q 145 145 130 145" 
-          fill="none" stroke="#8B4513" stroke-width="3" stroke-linecap="round"/>
+<svg 
+  width="200" 
+  height="300" 
+  viewBox="0 0 200 300" 
+  xmlns="http://www.w3.org/2000/svg"
+  aria-label="An animation of a coffee cup spilling a continuous waterfall of coffee.">
+
+  <defs>
+    <linearGradient id="coffeeGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#5C3A21;" />
+      <stop offset="50%" style="stop-color:#6F4E37;" />
+      <stop offset="100%" style="stop-color:#5C3A21;" />
+    </linearGradient>
+    <color>
+      <desc>Coffee color</desc>
+      <def color="#6F4E37" />
+    </color>
+    <color>
+      <desc>Foam color</desc>
+      <def color="#F5E5C3" />
+    </color>
+    <color>
+      <desc>Cup color</desc>
+      <def color="#D1B280" />
+    </color>
+    <color>
+      <desc>Cup rim/inside color</desc>
+      <def color="#FDFBF5" />
+    </color>
+  </defs>
+
+  <path 
+    d="M 10 280 Q 50 260, 100 270 T 190 280 L 190 300 L 10 300 Z" 
+    fill="url(#coffeeGradient)" />
+  <path 
+    d="M 10 280 Q 50 260, 100 270 T 190 280" 
+    fill="none" 
+    stroke="#F5E5C3" 
+    stroke-width="5" />
+
+  <path fill="url(#coffeeGradient)">
+    <animate 
+      attributeName="d"
+      dur="1.5s"
+      repeatCount="indefinite"
+      calcMode="spline"
+      keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"
+      values="
+        M 80 80 C 80 130, 70 190, 85 280 L 115 280 C 130 190, 120 130, 120 80 Z;
+        M 80 80 C 85 140, 95 180, 90 280 L 110 280 C 105 180, 115 140, 120 80 Z;
+        M 80 80 C 80 130, 70 190, 85 280 L 115 280 C 130 190, 120 130, 120 80 Z
+      "
+    />
+  </path>
+
+  <path fill="#F5E5C3" opacity="0.8">
+    <animate 
+      attributeName="d"
+      dur="1.5s"
+      repeatCount="indefinite"
+      calcMode="spline"
+      keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"
+      values="
+        M 90 100 C 90 140, 85 190, 88 250 L 93 250 C 95 190, 100 140, 98 100 Z;
+        M 88 100 C 85 150, 95 180, 92 250 L 97 250 C 99 180, 105 150, 103 100 Z;
+        M 90 100 C 90 140, 85 190, 88 250 L 93 250 C 95 190, 100 140, 98 100 Z
+      "
+    />
+  </path>
+
+  <g transform="translate(100, 50) rotate(20)">
+    <path 
+      d="M -40 30 C -60 30, -70 5, -50 -15 C -30 -35, 0 -35, 20 -15 C 40 5, 30 30, 10 30 Z" 
+      fill="#D1B280" 
+      stroke="#A48C65" 
+      stroke-width="2" />
+    <path 
+      d="M -40 30 Q -15 45, 10 30" 
+      fill="#6F4E37" />
+    <path 
+      d="M -40 30 C -60 30, -70 5, -50 -15 C -30 -35, 0 -35, 20 -15 C 40 5, 30 30, 10 30" 
+      fill="none" 
+      stroke="#FDFBF5" 
+      stroke-width="5" />
   </g>
-  
-  <!-- Steam wisps -->
-  <g id="steam">
-    <!-- Steam wisp 1 -->
-    <path d="M 85 95 Q 80 80 85 65 Q 90 50 85 35" 
-          fill="none" stroke="#E0E0E0" stroke-width="2.5" 
-          stroke-linecap="round" opacity="0.7">
-      <animate attributeName="d" 
-               dur="3s" 
-               repeatCount="indefinite"
-               values="M 85 95 Q 80 80 85 65 Q 90 50 85 35;
-                       M 85 95 Q 90 80 85 65 Q 80 50 85 35;
-                       M 85 95 Q 80 80 85 65 Q 90 50 85 35"/>
-      <animate attributeName="opacity" 
-               dur="3s" 
-               repeatCount="indefinite"
-               values="0.7; 0.4; 0.7"/>
-    </path>
-    
-    <!-- Steam wisp 2 -->
-    <path d="M 100 90 Q 105 75 100 60 Q 95 45 100 30" 
-          fill="none" stroke="#E0E0E0" stroke-width="2.5" 
-          stroke-linecap="round" opacity="0.7">
-      <animate attributeName="d" 
-               dur="2.5s" 
-               repeatCount="indefinite"
-               values="M 100 90 Q 105 75 100 60 Q 95 45 100 30;
-                       M 100 90 Q 95 75 100 60 Q 105 45 100 30;
-                       M 100 90 Q 105 75 100 60 Q 95 45 100 30"/>
-      <animate attributeName="opacity" 
-               dur="2.5s" 
-               repeatCount="indefinite"
-               values="0.7; 0.5; 0.7"/>
-    </path>
-    
-    <!-- Steam wisp 3 -->
-    <path d="M 115 95 Q 120 80 115 65 Q 110 50 115 35" 
-          fill="none" stroke="#E0E0E0" stroke-width="2.5" 
-          stroke-linecap="round" opacity="0.7">
-      <animate attributeName="d" 
-               dur="3.5s" 
-               repeatCount="indefinite"
-               values="M 115 95 Q 120 80 115 65 Q 110 50 115 35;
-                       M 115 95 Q 110 80 115 65 Q 120 50 115 35;
-                       M 115 95 Q 120 80 115 65 Q 110 50 115 35"/>
-      <animate attributeName="opacity" 
-               dur="3.5s" 
-               repeatCount="indefinite"
-               values="0.7; 0.3; 0.7"/>
-    </path>
-  </g>
+
 </svg>
