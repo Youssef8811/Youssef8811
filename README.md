@@ -7,23 +7,15 @@
   <img alt="Youssef Youssef" src="https://capsule-render.vercel.app/api?type=venom&color=6C63FF&height=200&section=header&text=Youssef%20Youssef&fontSize=70&fontColor=000" width="100%" />
 </picture>
 
-
 <div align="center">
-
-  <table>
-    <tr>
-      <td style="border: none; vertical-align: middle;">
-        <img src="./assets/coffee.svg" alt="Steaming Coffee" width="100"/>
-      </td>
-      <td style="border: none;">
-        <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=6C63FF&vCenter=true&random=false&width=600&lines=Full+Stack+Developer;Machine+Learning+Enthusiast;Problem+Solver;Persevere" alt="Typing SVG"/>
-      </td>
-    </tr>
-  </table>
+  
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&random=false&width=600&lines=Full+Stack+Developer;Machine+Learning+Enthusiast;Problem+Solver;Persevere)
 
 </div>
 
-
+<div align="center">
+<img src="./assets/coffee.svg" alt="Steaming Coffee" width="300"/>
+</div>
 ---
 
 ## ✒ About Me ️
