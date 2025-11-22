@@ -13,9 +13,6 @@
 
 </div>
 
-<div align="center">
-<img src="./assets/coffee.svg" alt="Steaming Coffee" width="300"/>
-</div>
 ---
 
 ## ✒ About Me ️
@@ -62,8 +59,6 @@
 ## 📊 GitHub Statistics
 
 <div align="center">
-  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Youssef8811&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=6C63FF&text_color=C9D1D9)
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Youssef8811&theme=tokyonight&hide_border=true&background=0D1117&ring=6C63FF&fire=6C63FF&currStreakLabel=6C63FF)
 
@@ -132,7 +127,10 @@ const goals2025 = [
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/-youssef-youssef/)
 [![Email via Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](https://mail.google.com/mail/?view=cm&fs=1&to=youssefy8811@gmail.com)
 
+</div>
 
+<div align="center">
+<img src="./assets/coffee.svg" alt="Code Recipe" width="300"/>
 </div>
 
 <div align="center">
