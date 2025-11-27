@@ -7,11 +7,13 @@
   <img alt="Youssef Youssef" src="https://capsule-render.vercel.app/api?type=venom&color=6C63FF&height=200&section=header&text=Youssef%20Youssef&fontSize=70&fontColor=000" width="100%" />
 </picture>
 
+
 <div align="center">
   
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&random=false&width=600&lines=Full+Stack+Developer;Machine+Learning+Enthusiast;Problem+Solver;Persevere)
 
-</div>
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Now-6C63FF?style=for-the-badge&logo=vercel&logoColor=white&labelColor=8C7BFF)](https://portfolio-pink-beta-86.vercel.app)
+
 
 ---
 
