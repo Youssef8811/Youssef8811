@@ -24,7 +24,7 @@
 
 
 - 📜 Currently working on **Bike Sharing System Web Application** 
-- 🌱 Learning **Artificial Intelligence & Cloud Computing** 
+- 🌱 Learning **Artificial Intelligence & Unity** 
 
 ---
 
