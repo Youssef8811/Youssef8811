@@ -87,13 +87,13 @@
 
 ```javascript
 const currentlyLearning = {
-  cloud: ["AWS", "Azure", "Kubernetes"],
-  ai: ["Machine Learning", "TensorFlow"],
+  cloud: ["Azure", "Kubernetes"],
+  ai: ["Machine Learning", "Pytorch"],
   mobile: ["React Native"],
   blockchain: ["Solidity"]
 };
 
-const goals2025 = [
+const goals2026 = [
   "Contribute to an open source project",
   "Build and launch a SaaS product",
 ];
