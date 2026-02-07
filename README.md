@@ -20,10 +20,10 @@
 ## ✒ About Me ️
 
 > Passionate developer crafting solutions to complex problems.
-> I believe bugs are intricate to programming, which, with time, we become better at resolving them.
+> Interested in Computer Vision
 
 
-- 📜 Currently working on **Bike Sharing System Web Application** 
+- 📜 Currently working on **2D To 3D Mesh Pipeline** 
 - 🌱 Learning **Artificial Intelligence & Unity** 
 
 ---
