@@ -85,17 +85,17 @@
 ## 🎯 Current Focus
 
 ```javascript
-const currentlyLearning = {
-  cloud: ["Azure", "Kubernetes"],
-  ai: ["Machine Learning", "PyTorch"],
-  mobile: ["React Native"],
-  blockchain: ["Solidity"]
-};
-
-const goals2026 = [
-  "Contribute to an open source project",
-  "Build and launch a SaaS product",
-];
+  const currentlyLearning = {
+    cloud: ["Azure", "Kubernetes"],
+    ai: ["Machine Learning", "PyTorch"],
+    mobile: ["React Native"],
+    blockchain: ["Solidity"]
+  };
+  
+  const goals2026 = [
+    "Contribute to an open source project",
+    "Build and launch a SaaS product",
+  ];
 ```
 
 ---
