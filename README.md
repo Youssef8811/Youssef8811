@@ -24,7 +24,6 @@
 
 
 - 📜 Currently working on **2D To 3D Mesh Pipeline** 
-- 🌱 Learning **Artificial Intelligence & Unity** 
 
 ---
 
@@ -33,10 +32,11 @@
 <div align="center">
 
 ### Languages
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
 ### Frontend
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
@@ -44,15 +44,14 @@
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 ### Backend
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 
 ### Database & Cloud
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 
 </div>
 
@@ -88,7 +87,7 @@
 ```javascript
 const currentlyLearning = {
   cloud: ["Azure", "Kubernetes"],
-  ai: ["Machine Learning", "Pytorch"],
+  ai: ["Machine Learning", "PyTorch"],
   mobile: ["React Native"],
   blockchain: ["Solidity"]
 };
@@ -105,8 +104,8 @@ const goals2026 = [
 
 <div align="center">
   
-[![Repo 1](https://github-readme-stats.vercel.app/api/pin/?username=Moe1177&repo=HexaPedal_HM&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=C9D1D9)](https://github.com/Moe1177/HexaPedal_HM)
-[![Repo 2](https://github-readme-stats.vercel.app/api/pin/?username=POLO-SOEN341&repo=POLO-SOEN341_Project_F24&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=C9D1D9)](https://github.com/POLO-SOEN341/POLO-SOEN341_Project_F24)
+[![Repo](https://github-readme-stats.vercel.app/api/pin/?username=Moe1177&repo=HexaPedal_HM&theme=tokyonight)](https://github.com/Moe1177/HexaPedal_HM)
+[![Repo](https://github-readme-stats.vercel.app/api/pin/?username=POLO-SOEN341&repo=POLO-SOEN341_Project_F24&theme=tokyonight)](https://github.com/POLO-SOEN341/POLO-SOEN341_Project_F24)
 
 </div>
 
