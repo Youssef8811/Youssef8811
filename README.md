@@ -85,29 +85,18 @@
 ## 🎯 Current Focus
 
 ```javascript
-                                            const currentlyLearning = {
-                                              cloud: ["Azure", "Kubernetes"],
-                                              ai: ["Machine Learning", "PyTorch"],
-                                              mobile: ["React Native"],
-                                              blockchain: ["Solidity"]
-                                            };
-                                            
-                                            const goals2026 = [
-                                              "Contribute to an open source project",
-                                              "Build and launch a SaaS product",
-                                            ];
+                                  const currentlyLearning = {
+                                    cloud: ["Azure", "Kubernetes"],
+                                    ai: ["Machine Learning", "PyTorch"],
+                                    mobile: ["React Native"],
+                                    blockchain: ["Solidity"]
+                                  };
+                                  
+                                  const goals2026 = [
+                                    "Contribute to an open source project",
+                                    "Build and launch a SaaS product",
+                                  ];
 ```
-
----
-
-### 🌟 Featured Projects
-
-<div align="center">
-  
-[![Repo](https://github-readme-stats.vercel.app/api/pin/?username=Moe1177&repo=HexaPedal_HM&theme=tokyonight)](https://github.com/Moe1177/HexaPedal_HM)
-[![Repo](https://github-readme-stats.vercel.app/api/pin/?username=POLO-SOEN341&repo=POLO-SOEN341_Project_F24&theme=tokyonight)](https://github.com/POLO-SOEN341/POLO-SOEN341_Project_F24)
-
-</div>
 
 ---
 
