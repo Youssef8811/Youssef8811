@@ -85,7 +85,7 @@
 
 ```javascript
 const currentlyLearning = {
-  cloud: ["Azure", "Kubernetes"],
+  cloud: ["AWS", "Kubernetes"],
   ai: ["Machine Learning", "PyTorch"],
   mobile: ["React Native"],
   blockchain: ["Solidity"]
